@@ -41,13 +41,13 @@ public class UnionFind {
 	public int getRank(int i) {
 		return rank[i];
 	}
-	
+
 	public void printParents() {
 		System.out.println("Printing info: ---------------------");
-		for(int j = 0;j< p.length;j++) {
-			System.out.println("for j: "+j);
-			System.out.println("parent is: "+p[j]);
-			System.out.println("rank is: "+rank[j]);
+		for (int j = 0; j < p.length; j++) {
+			System.out.println("for j: " + j);
+			System.out.println("parent is: " + p[j]);
+			System.out.println("rank is: " + rank[j]);
 		}
 	}
 }
